@@ -1,0 +1,515 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: Work Sans;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+h1 {
+  width: 650px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #101828;
+  text-align: left;
+}
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #1347b8;
+}
+.container {
+  max-width: 100%;
+  width: 85%;
+  margin-inline: auto;
+}
+#header {
+  padding-block: 30px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.burger-menu ion-icon {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.logo img {
+  width: 28px;
+  height: 28px;
+  background: #101828;
+  border-radius: 50%;
+}
+.logo h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+.nav a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #101828;
+}
+
+.header button {
+  width: 137px;
+  height: 35px;
+  background: #101828;
+  border-radius: 47px;
+  color: #fff;
+  font-size: 16px;
+}
+#smart {
+  padding-block: 40px;
+}
+.smart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.smart-text {
+  width: 550px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #475467;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.smart-text h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #98a2b3;
+}
+.smart-btns {
+  display: flex;
+  align-items: center;
+}
+.smart-btns button {
+  width: 167px;
+  height: 45px;
+  border-radius: 4px;
+  color: #101828;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.smart-btns button:focus {
+  background: #101828;
+  color: #fff;
+}
+.smart-btns button span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.about {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.about-text h6 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.about-text h6 span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.smart-img {
+  position: relative;
+}
+.smart-img :last-child {
+  position: absolute;
+  left: 150px;
+  bottom: -40px;
+}
+#feauture {
+  padding-block: 50px;
+}
+.feauture-boxes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.feauture-box {
+  width: 350px;
+  height: 100px;
+  border-radius: 6px;
+  border: 1px solid #e4e7ec;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px;
+}
+.feauture-box img {
+  width: 60px;
+  height: 60px;
+}
+.feauture h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 70px 0 50px 0;
+}
+
+h2 span {
+  font-size: 15px;
+  font-weight: 300;
+  color: #101828;
+  line-height: 26px;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.product-boxes {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  gap: 0px;
+  border-radius: 6px;
+  border: 1px solid #e4e7ec;
+  padding: 6px;
+}
+
+.product-boxes img {
+  max-width: 133px;
+  width: 100%;
+  height: 159px;
+  padding-block: 20px;
+  display: flex;
+  align-self: center;
+}
+.product-boxes h6 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #576071;
+  line-height: 26px;
+}
+.product-stars {
+  font-size: 14px;
+  color: #ffd166;
+}
+.product-stars ion-icon {
+  padding-block: 15px;
+}
+.product-stars span {
+  color: #dfdedc;
+}
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+.price h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #006d77;
+}
+.price button {
+  width: 67px;
+  height: 23px;
+  background: #bee1e6;
+  border-radius: 6px;
+  color: #006d77;
+}
+.categorie {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.categorie h1 {
+  width: 100%;
+  text-align: center;
+}
+.categorie p {
+  width: 490px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-inline: auto;
+  margin-block: 50px;
+  color: #475467;
+}
+.categorie img {
+  margin-bottom: 70px;
+}
+.cross {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 70px;
+}
+.cross h5 {
+  width: 165px;
+  height: 36px;
+  border-radius: 48px;
+  background: #fff3ea;
+  color: #e29578;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cross h1 {
+  margin-block: 60px;
+  text-align: center;
+}
+.cross-img {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 70px;
+}
+.cross-img2 {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 80px;
+}
+.cross img {
+  width: 100px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 50%;
+  font-size: 250px;
+  margin-top: 40px;
+}
+.cross h3 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-block: 20px;
+}
+.cross p {
+  width: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #667085;
+  margin-inline: auto;
+  padding-bottom: 40px;
+}
+.cross-box1 {
+  width: 285px;
+  background: #fff3ea;
+  border-radius: 8px;
+}
+.cross-box2 {
+  width: 285px;
+  border-radius: 8px;
+  background: #fde2e4;
+}
+.cross-box3 {
+  width: 285px;
+  border-radius: 8px;
+  background: #dbece5;
+}
+.cross-box4 {
+  width: 285px;
+  border-radius: 8px;
+  background: #dbece5;
+}
+.cross-box5 {
+  width: 285px;
+  border-radius: 8px;
+  background: #d1ecfd;
+}
+#newsletter {
+  margin-block: 90px;
+}
+.newsletter {
+  width: 1170px;
+  height: 460px;
+  border-radius: 12px;
+  background: #006d77;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 580px;
+}
+.newsletter button {
+  width: 360px;
+  height: 59px;
+  border-radius: 53px;
+  color: #797979;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+}
+.newsletter span {
+  width: 40px;
+  height: 40px;
+  background: #006d77;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.newsletter h4 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 50px;
+}
+.newsletter p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  padding-block: 20px;
+}
+.newsletter-img {
+  position: relative;
+}
+
+.newsletter-img img:first-child {
+  max-width: 360px;
+  position: absolute;
+  right: 51px;
+  top: -132px;
+}
+.newsletter-img img:last-child {
+  position: absolute;
+  left: -561px;
+  top: -11px;
+}
+.footer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 50px;
+}
+.footer-btn button {
+  width: 225px;
+  height: 45px;
+  border-radius: 38px;
+  color: #101828;
+  background: #fff;
+}
+.footer-btn button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-btn button img span {
+  color: #101828;
+}
+
+.footer-btn button:focus {
+  color: #fff;
+  background: #101828;
+}
+.cross-box2 img {
+  width: 90px;
+  height: 90px;
+}
+
+.footer-ols {
+  display: flex;
+  justify-content: space-between;
+  border-block: 2px solid #d6d8dd;
+  padding-block: 50px;
+}
+.footer-ol {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.footer-ul {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 40px; */
+}
+.footer-ols h5 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #101828;
+}
+.footer-ols p,
+li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #969696;
+}
+.footer-ol span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #444e62;
+}
+.footer-ol a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #4bb4ff;
+}
+.footer .icons {
+  display: flex;
+  gap: 15px;
+  color: #444e62;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 30px;
+}
+.foot h4 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #969696;
+}
+.foot a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #969696;
+}
